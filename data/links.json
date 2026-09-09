@@ -1,0 +1,104 @@
+[
+  {
+    "id": "sample-whatsapp-rotator",
+    "slug": "zap-vendas",
+    "title": "Atendimento Comercial WhatsApp (50% / 50%)",
+    "description": "Distribui os leads igualmente entre dois atendentes no WhatsApp",
+    "type": "rotator",
+    "rotationMode": "round_robin",
+    "currentRotationIndex": 0,
+    "totalClicks": 28,
+    "isActive": true,
+    "createdAt": "2026-09-08T20:05:06.260Z",
+    "updatedAt": "2026-09-09T20:05:23.264Z",
+    "destinations": [
+      {
+        "id": "dest-1",
+        "title": "WhatsApp Atendente Júlia (Plantão A)",
+        "url": "https://wa.me/5511988881111?text=Ol%C3%A1%20J%C3%BAlia%2C%20quero%20saber%20mais%20sobre%20o%20produto",
+        "weight": 50,
+        "clicks": 14,
+        "lastClickedAt": "2026-09-09T20:05:19.122Z",
+        "isActive": true
+      },
+      {
+        "id": "dest-2",
+        "title": "WhatsApp Atendente Marcos (Plantão B)",
+        "url": "https://wa.me/5511977772222?text=Ol%C3%A1%20Marcos%2C%20quero%20saber%20mais%20sobre%20o%20produto",
+        "weight": 50,
+        "clicks": 14,
+        "lastClickedAt": "2026-09-09T20:05:23.264Z",
+        "isActive": true
+      }
+    ],
+    "recentClicks": [
+      {
+        "id": "log_1788984323264_2iq2",
+        "timestamp": "2026-09-09T20:05:23.264Z",
+        "destinationId": "dest-2",
+        "destinationTitle": "WhatsApp Atendente Marcos (Plantão B)",
+        "destinationUrl": "https://wa.me/5511977772222?text=Ol%C3%A1%20Marcos%2C%20quero%20saber%20mais%20sobre%20o%20produto"
+      },
+      {
+        "id": "log_1788984319122_4jqo",
+        "timestamp": "2026-09-09T20:05:19.122Z",
+        "destinationId": "dest-1",
+        "destinationTitle": "WhatsApp Atendente Júlia (Plantão A)",
+        "destinationUrl": "https://wa.me/5511988881111?text=Ol%C3%A1%20J%C3%BAlia%2C%20quero%20saber%20mais%20sobre%20o%20produto"
+      },
+      {
+        "id": "log_1788984316342_v9kz",
+        "timestamp": "2026-09-09T20:05:16.342Z",
+        "destinationId": "dest-2",
+        "destinationTitle": "WhatsApp Atendente Marcos (Plantão B)",
+        "destinationUrl": "https://wa.me/5511977772222?text=Ol%C3%A1%20Marcos%2C%20quero%20saber%20mais%20sobre%20o%20produto"
+      },
+      {
+        "id": "log_1788984314448_2dkf",
+        "timestamp": "2026-09-09T20:05:14.448Z",
+        "destinationId": "dest-1",
+        "destinationTitle": "WhatsApp Atendente Júlia (Plantão A)",
+        "destinationUrl": "https://wa.me/5511988881111?text=Ol%C3%A1%20J%C3%BAlia%2C%20quero%20saber%20mais%20sobre%20o%20produto"
+      },
+      {
+        "id": "log-1",
+        "timestamp": "2026-09-09T19:55:06.260Z",
+        "destinationId": "dest-1",
+        "destinationTitle": "WhatsApp Atendente Júlia (Plantão A)",
+        "destinationUrl": "https://wa.me/5511988881111?text=Ol%C3%A1%20J%C3%BAlia%2C%20quero%20saber%20mais%20sobre%20o%20produto"
+      },
+      {
+        "id": "log-2",
+        "timestamp": "2026-09-09T19:45:06.260Z",
+        "destinationId": "dest-2",
+        "destinationTitle": "WhatsApp Atendente Marcos (Plantão B)",
+        "destinationUrl": "https://wa.me/5511977772222?text=Ol%C3%A1%20Marcos%2C%20quero%20saber%20mais%20sobre%20o%20produto"
+      }
+    ]
+  },
+  {
+    "id": "sample-simple-link",
+    "slug": "catalogo",
+    "title": "Catálogo de Produtos 2026",
+    "description": "Encurtador simples direcionando para a loja",
+    "type": "single",
+    "rotationMode": "round_robin",
+    "currentRotationIndex": 0,
+    "totalClicks": 47,
+    "isActive": true,
+    "createdAt": "2026-09-07T20:05:06.260Z",
+    "updatedAt": "2026-09-09T20:05:06.260Z",
+    "destinations": [
+      {
+        "id": "dest-single-1",
+        "title": "Loja Principal",
+        "url": "https://google.com",
+        "weight": 100,
+        "clicks": 47,
+        "lastClickedAt": "2026-09-09T20:00:06.260Z",
+        "isActive": true
+      }
+    ],
+    "recentClicks": []
+  }
+]

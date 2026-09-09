@@ -1,0 +1,6 @@
+{
+  "name": "RotaLink",
+  "description": "Encurtador e rotador inteligente de links com distribuição de tráfego, suporte a WhatsApp e métricas em tempo real.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
